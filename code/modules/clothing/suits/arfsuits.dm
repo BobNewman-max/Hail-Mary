@@ -2404,6 +2404,13 @@
 	icon_state = "brotherhood_armor_senior"
 	item_state = "brotherhood_armor_senior"
 
+/obj/item/clothing/suit/armor/medium/combat/brotherhood/sarge
+	name = "brotherhood Knight Sarge Armor"
+	desc = "A renforced combat armor set made by the Brotherhood of Steel, standard issue for all Knight Sarge. It bears a silver stripe."
+	icon_state = "brotherhood_armor_senior"
+	item_state = "brotherhood_armor_senior"
+	armor_tokens = list(ARMOR_MODIFIER_UP_LASER_T2, ARMOR_MODIFIER_DOWN_ENV_T2, ARMOR_MODIFIER_UP_DT_T1, ARMOR_MODIFIER_UP_MELEE_T1)
+
 /obj/item/clothing/suit/armor/medium/combat/brotherhood/captain
 	name = "brotherhood head knight armor"
 	desc = "A renforced combat armor set made by the Brotherhood of Steel, standard issue for all Head Knights. It bears golden embroidery."
@@ -3338,6 +3345,12 @@
 	item_state = "t51green"
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T2, ARMOR_MODIFIER_UP_BULLET_T2, ARMOR_MODIFIER_UP_LASER_T2, ARMOR_MODIFIER_UP_DT_T2)
 
+/obj/item/clothing/suit/armor/power_armor/t51b/palcomm
+	name = "T-51b Paladin Commander Armor"
+	desc = "The pinnacle of pre-war technology. This suit of power armor is customised heavily to fit the Paladin Commander."
+	icon_state = "t51palcomm"
+	item_state = "t51palcomm"
+	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T3, ARMOR_MODIFIER_UP_BULLET_T3, ARMOR_MODIFIER_UP_LASER_T3, ARMOR_MODIFIER_UP_DT_T3)
 
 /obj/item/clothing/suit/armor/power_armor/t51b/bos
 	name = "Brotherhood T-51b Power Armour"
