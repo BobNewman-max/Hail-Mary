@@ -1541,3 +1541,13 @@ list(/obj/item/stack/sheet/metal = 20,
 							/obj/item/book/granter/crafting_recipe/blueprint/trapper,
 							)
 		new randomgun(src)
+
+/obj/item/storage/box/bos/knightcaptain/PopulateContents()
+	for(var/i in 1 to 2)
+		var/randomgun = pick(
+							/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
+							/obj/item/book/granter/crafting_recipe/blueprint/lightplasmapistol,
+							/obj/item/book/granter/crafting_recipe/blueprint/aer9/focused,
+							/obj/item/book/granter/crafting_recipe/blueprint/trapper,
+							)
+		new randomgun(src)
